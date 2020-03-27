@@ -17,7 +17,7 @@ install_ytt() {
 
   mkdir -p "${bin_install_path}"
 
-  local bin_path="${bin_install_path}/kapp"
+  local bin_path="${bin_install_path}/ytt"
   echo "Downloading ytt from ${download_url}"
   curl -s -L "$download_url" -o "$bin_path"
   chmod +x $bin_path
